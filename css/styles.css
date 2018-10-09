@@ -52,14 +52,15 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 nav {
   width: 100%;
   height: 80px;
-  background-color: #252831;
+  background-color: #3c3c3c;
   text-align:center;
+  display: flex;
 }
 nav h1 {
   margin: auto;
 }
 nav h1 a {
-  color: #fff;
+  color: orange;
   font-size: 14pt;
   font-weight: 200;
   letter-spacing: 10px;
