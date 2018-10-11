@@ -17,12 +17,15 @@ nav {
 }
 
 .filter-options select {
-    margin: 0px 0px 0px 40px;
+    margin: 40px 0px 0px 10px;
     padding: 0 10px;
     width: 200px;
+
 }
 
 .filter-options h2 {
     padding: 19px 19px 18px;
-    margin: 0 20px;
+    margin: 30px 0px 0 40px;
+    float: left;
+    font-size: 1.4rem;
 }
