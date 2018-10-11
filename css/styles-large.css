@@ -4,3 +4,25 @@
     background-color: #ccc;
     margin: auto;
 }
+
+nav {
+    margin: auto;
+    width: 80%;
+}
+
+.filter-options {
+    margin: auto;
+    width: 80%;
+  
+}
+
+.filter-options select {
+    margin: 0px 0px 0px 40px;
+    padding: 0 10px;
+    width: 200px;
+}
+
+.filter-options h2 {
+    padding: 19px 19px 18px;
+    margin: 0 20px;
+}

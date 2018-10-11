@@ -8,7 +8,7 @@ body,td,th,p{
 	line-height: 1.5;
 }
 body {
-	background-color: #fdfdfd;
+	background-color: #f3f3f3;
 	margin: 0;
 	position:relative;
 }
@@ -40,13 +40,15 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   min-height: 100%;
 }
 #footer {
-  background-color: #444;
+  background-color: #3c3c3c;
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
+  margin: auto;
+  width: 80%;
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -107,16 +109,18 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
-  background-color: #3397DB;
+  height: 125px;
+  background-color: #3c3c3c;
   align-items: center;
+  margin: auto;
 }
 .filter-options h2 {
   color: white;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
-  margin: 0 20px;
+  margin: 0 0px 0px 12px;
+  padding: 19px 0px 10px;
 }
 .filter-options select {
   background-color: white;
