@@ -132,6 +132,8 @@ nav h1 a {
   margin: 10px;
   padding: 0 10px;
   width: 200px;
+  overflow: hidden;
+  border-radius: 3px;
 }
 
 /* ====================== Restaurant Listing ====================== */
