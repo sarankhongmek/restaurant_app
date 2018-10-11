@@ -1,3 +1,6 @@
+.filter-options {
+    height: 125px;
+  }
 
 
 .filter-options select {
@@ -13,3 +16,6 @@
     float: left;
     font-size: 1.4rem;
 }
+
+
+
