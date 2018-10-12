@@ -1,21 +1,53 @@
-.filter-options {
-    height: 125px;
+/* ====================== Navigation ====================== */
+nav h1 a {
+    letter-spacing: 10px;
   }
-
-
-.filter-options select {
-    margin: 40px 0px 0px 10px;
-    padding: 0 10px;
+  /* ====================== Restaurant Filtering ====================== */
+  .filter-options {
+    padding-top: 10px;
+    height: 130px;
+  }
+  .filter-options h2 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .filter-options select {
     width: 200px;
-
-}
-
-.filter-options h2 {
-    padding: 19px 19px 18px;
-    margin: 30px 0px 0 40px;
-    float: left;
-    font-size: 1.4rem;
-}
-
-
-
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 40px;
+  }
+  /* ====================== Restaurant Listing ====================== */
+  #restaurants-list li {
+    width: calc(50% - 26px);
+    max-width: 350px;
+    padding: 25px;
+  }
+  
+  /* ====================== Restaurant Details ====================== */
+  .inside #map-container {
+    height: calc(100vh - 100px);
+    max-height: none;
+    position: fixed;
+    width: calc(100vw - 350px);
+    margin: 0;
+    left: 350px;
+    top: 100px;
+  }
+  
+  #restaurant-container, #reviews-container {
+    width: 350px;
+    box-sizing: border-box;
+    padding: 15px 15px 0px;
+  }
+  #reviews-container {
+    padding-bottom: 5px;
+  }
+  #restaurant-container {
+    margin-top: 100px
+  }
+  .inside #footer {
+    padding: 20px;
+    width: 350px;
+    box-sizing: border-box;
+  }
