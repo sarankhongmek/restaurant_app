@@ -7,14 +7,10 @@
 
 nav {
     margin: auto;
-    width: 80%;
 }
 
 .filter-options {
-    margin: auto;
-    width: 80%;
     height: 125px;
-    background-color: #3c3c3c;
 }
 
 .filter-options select {
