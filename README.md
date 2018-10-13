@@ -6,11 +6,11 @@
 
 We were giving an Restaurant Reviews web application project and to complete this project it must meet the requirements that was given.
 
-## Requirement stage-1:
+## Requirement stage-1
   Make the website responsive 
-## Requirement stage-2:
+## Requirement stage-2
   Add accessibility to the website
-## Requirement stage-3:
+## Requirement stage-3
   Add service worker to the website to make it offline first compatible
 
 
@@ -27,6 +27,8 @@ In a terminal check what version of python you are running: `python -V`
 
 For python 2.x: in a terminal run this command `python -m SimpleHTTPServer 8000`
  (or some other port, if port 8000 is already in use.) 
+ 
+For Python 3: python -m http.server 8000
 
 2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
 
