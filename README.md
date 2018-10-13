@@ -6,12 +6,13 @@
 
 We were giving an Restaurant Reviews web application project and to complete this project it must meet the requirements that was given.
 
-## Requirement stage-1
-  Make the website responsive 
-## Requirement stage-2
-  Add accessibility to the website
-## Requirement stage-3
-  Add service worker to the website to make it offline first compatible
+## Requirement
+
+  1) Make the website responsive 
+
+  2) Add accessibility to the website
+
+  3) Add service worker to the website to make it offline first compatible
 
 
 
