@@ -30,8 +30,7 @@ For python 2.x: in a terminal run this command `python -m SimpleHTTPServer 8000`
  
 For Python 3: python -m http.server 8000
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-
+2. With your server running, visit the site: `http://localhost:8000`
 
 
 
