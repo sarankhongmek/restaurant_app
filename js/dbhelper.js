@@ -146,11 +146,34 @@ class DBHelper {
     return (`./restaurant.html?id=${restaurant.id}`);
   }
 
+// dbhelper.js line 149
   /**
-   * Restaurant image URL.
+   * Restaurant image URL. It defaults to a medium sized image. It uses restaurant.photograph
+   * and fallbacks to restaurant.id if former is missing.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph}`);
+    let url = `/img/${(restaurant.photograph.split('.')[0]||restaurant.id)}-medium.jpg`;
+    return url;
+  }
+
+  /**
+   * Restaurant srcset attribute for browser to decide best resolution. It uses restaurant.photograph
+   * and fallbacks to restaurant.id if former is missing.
+   */
+  static imageSrcsetForRestaurant(restaurant) {
+    const imageSrc = `/img/${(restaurant.photograph.split('.')[0]||restaurant.id)}`;
+    return `${imageSrc}-small.jpg 600w,
+            ${imageSrc}-medium.jpg 1000w,
+            ${imageSrc}-large.jpg 3000w `;
+  }
+
+  /**
+   * Restaurant sizes attribute so browser knows image sizes before deciding
+   * what image to download.
+   */
+  static imageSizesForRestaurant(restaurant) {
+    return `(min-width: 1024px) 3000px,
+            (min-width: 768px) and (max-width: 1023px) 1500px`;
   }
 
   /**

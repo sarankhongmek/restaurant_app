@@ -21,7 +21,7 @@ nav h1 a {
   #restaurants-list li {
     width: calc(50% - 26px);
     max-width: 350px;
-    padding: 25px;
+    
   }
   
   /* ====================== Restaurant Details ======================.inside #footer {
