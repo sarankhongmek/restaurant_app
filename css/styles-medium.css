@@ -24,11 +24,7 @@ nav h1 a {
     
   }
   
-  /* ====================== Restaurant Details ======================.inside #footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-} */
+  /* ====================== Restaurant Details ====================== */
   .inside #map-container {
     height: calc(100vh - 100px);
     max-height: none;
@@ -55,3 +51,5 @@ nav h1 a {
     width: 350px;
     box-sizing: border-box;
   }
+
+
