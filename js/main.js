@@ -89,8 +89,12 @@ initMap = () => {
       }).addTo(newMap);
     } catch(error) {
       console.log("Map couldn't be initialized", error);
+      DBHelper.mapOffline();
     }
-}
+  } else {
+    
+    DBHelper.mapOffline();
+  }
   updateRestaurants();
 }
 /* window.initMap = () => {
