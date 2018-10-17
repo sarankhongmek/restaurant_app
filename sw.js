@@ -14,12 +14,12 @@ self.addEventListener('install', function(event) {
       caches.open(staticCacheName).then(function(cache) {
         return cache.addAll([
           '/', // this caches index.html
+          '/js/secret.js',
           '/restaurant.html',
           '/css/styles.css',
           '/css/styles-medium.css',
           '/css/styles-large.css',
           '/js/dbhelper.js',
-          '/js/secret.js',
           '/js/main.js',
           '/js/restaurant_info.js',
           'js/register-sw.js',
